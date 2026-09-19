@@ -10,6 +10,8 @@ interface HeaderProps {
 const navItems = [
   { to: '/dashboard', label: 'Dashboard' },
   { to: '/empleados', label: 'Empleados' },
+  { to: '/instructores', label: 'Instructores' },
+  { to: '/capacitaciones', label: 'Capacitaciones' },
 ];
 
 function Header({ user, onLogout }: HeaderProps) {

@@ -1,6 +1,18 @@
 {
   "employees": [
     {
+      "id": 1,
+      "name": "Ana García",
+      "email": "ana.garcia@empresa.com",
+      "position": "Desarrolladora Frontend",
+      "department": "Tecnologia",
+      "salary": 8500,
+      "hireDate": "2022-03-15",
+      "status": "active",
+      "role": "employee",
+      "avatarUrl": "https://th.bing.com/th/id/ODL.cce9ce0ec59ddfee5c45ef406d2ffcda?w=310&h=200&c=7&rs=1&bgcl=fffffc&r=0&o=6&dpr=1.5&pid=AlgoBlockDebug"
+    },
+    {
       "id": 2,
       "name": "Carlos Martínez",
       "email": "carlos.martinez@empresa.com",
@@ -219,75 +231,6 @@
       "hireDate": "2021-02-08",
       "status": "on_leave",
       "role": "employee"
-    },
-    {
-      "name": "pedro jose barillas melagr ",
-      "email": "pedroallanp06@gmail.com",
-      "position": "desarrollador",
-      "department": "Finanzas",
-      "salary": 8500,
-      "hireDate": "2026-09-19",
-      "role": "employee",
-      "status": "active",
-      "phone": "+50238099450",
-      "avatarUrl": "",
-      "id": 22
-    }
-  ],
-  "instructors": [
-    {
-      "id": 1,
-      "name": "Laura Méndez",
-      "email": "laura.mendez@empresa.com",
-      "specialty": "Liderazgo y trabajo en equipo",
-      "status": "active"
-    },
-    {
-      "id": 2,
-      "name": "Jorge Castillo",
-      "email": "jorge.castillo@empresa.com",
-      "specialty": "Herramientas digitales",
-      "status": "active"
-    },
-    {
-      "id": 3,
-      "name": "Patricia Gómez",
-      "email": "patricia.gomez@empresa.com",
-      "specialty": "Seguridad laboral",
-      "status": "inactive"
-    },
-    {
-      "name": "pedro",
-      "email": "pedroallanp06@gmail.com",
-      "specialty": "fisica",
-      "status": "active",
-      "id": 4
-    }
-  ],
-  "trainings": [
-    {
-      "id": 1,
-      "title": "Liderazgo y trabajo en equipo",
-      "instructor": "Laura Méndez",
-      "date": "2026-10-05",
-      "duration": "4 horas",
-      "status": "planned"
-    },
-    {
-      "id": 2,
-      "title": "Herramientas digitales para el trabajo",
-      "instructor": "Jorge Castillo",
-      "date": "2026-10-12",
-      "duration": "3 horas",
-      "status": "in_progress"
-    },
-    {
-      "id": 3,
-      "title": "Seguridad laboral",
-      "instructor": "Patricia Gómez",
-      "date": "2026-09-10",
-      "duration": "2 horas",
-      "status": "completed"
     }
   ]
 }

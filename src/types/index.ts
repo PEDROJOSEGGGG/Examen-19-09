@@ -29,6 +29,28 @@ export interface Employee {
   phone?: string;
 }
 
+export type InstructorStatus = "active" | "inactive";
+
+export interface Instructor {
+  id: number;
+  name: string;
+  email: string;
+  specialty: string;
+  status: InstructorStatus;
+  avatarUrl?: string;
+}
+
+export type TrainingStatus = "planned" | "in_progress" | "completed";
+
+export interface Training {
+  id: number;
+  title: string;
+  instructor: string;
+  date: string;
+  duration: string;
+  status: TrainingStatus;
+}
+
 // --- Tipos para creación y actualización ---
 
 export type CreateEmployeeDto = Omit<Employee, "id">;
